@@ -65,28 +65,32 @@ class _MyHomePageState extends State<MyHomePage> {
             // mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Expanded(
-                child: Column(
-                  children: [
-                    Expanded(
-                      child: Align(
-                        alignment: Alignment.centerRight,
-                        child: Text(
-                          equation,
-                          softWrap: true,
-                          style:
-                              TextStyle(color: Colors.white, fontSize: 30.sp),
+                child: Padding(
+                  padding: EdgeInsets.only(right: 8.h),
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Align(
+                          alignment: Alignment.centerRight,
+                          child: Text(
+                            equation,
+                            softWrap: true,
+                            style:
+                                TextStyle(color: Colors.white, fontSize: 30.sp),
+                          ),
                         ),
                       ),
-                    ),
-                    Container(
-                      alignment: Alignment.centerRight,
-                      child: Text(
-                        result,
-                        textAlign: TextAlign.right,
-                        style: TextStyle(color: Colors.white, fontSize: 40.sp),
+                      Container(
+                        alignment: Alignment.centerRight,
+                        child: Text(
+                          result,
+                          textAlign: TextAlign.right,
+                          style:
+                              TextStyle(color: Colors.white, fontSize: 40.sp),
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
               Expanded(
