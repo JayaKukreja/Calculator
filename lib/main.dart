@@ -40,7 +40,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String equation = "00000000000000000000000000";
+  String equation = "0";
   String result = "";
   String expression = "";
   @override
@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Colors.white),
                       ],
                     ),
-                    Expanded(child: SizedBox()),
+                    const Expanded(child: SizedBox()),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Colors.white),
                       ],
                     ),
-                    Expanded(child: SizedBox()),
+                    const Expanded(child: SizedBox()),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -149,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Colors.white),
                       ],
                     ),
-                    Expanded(child: SizedBox()),
+                    const Expanded(child: SizedBox()),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -163,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Colors.white),
                       ],
                     ),
-                    Expanded(child: SizedBox()),
+                    const Expanded(child: SizedBox()),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
