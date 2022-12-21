@@ -67,28 +67,23 @@ class _MyHomePageState extends State<MyHomePage> {
               Expanded(
                 child: Column(
                   children: [
-                    SingleChildScrollView(
-                      child: Expanded(
-                        child: Align(
-                          alignment: Alignment.centerRight,
-                          child: Text(
-                            equation,
-                            textAlign: TextAlign.right,
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 40.sp),
-                          ),
+                    Expanded(
+                      child: Align(
+                        alignment: Alignment.centerRight,
+                        child: Text(
+                          equation,
+                          softWrap: true,
+                          style:
+                              TextStyle(color: Colors.white, fontSize: 40.sp),
                         ),
                       ),
                     ),
-                    Expanded(
-                      child: Container(
-                        alignment: Alignment.centerRight,
-                        child: Text(
-                          result,
-                          textAlign: TextAlign.right,
-                          style:
-                              TextStyle(color: Colors.white, fontSize: 30.sp),
-                        ),
+                    Container(
+                      alignment: Alignment.centerRight,
+                      child: Text(
+                        result,
+                        textAlign: TextAlign.right,
+                        style: TextStyle(color: Colors.white, fontSize: 30.sp),
                       ),
                     ),
                   ],
