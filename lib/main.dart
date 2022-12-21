@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           equation,
                           softWrap: true,
                           style:
-                              TextStyle(color: Colors.white, fontSize: 40.sp),
+                              TextStyle(color: Colors.white, fontSize: 30.sp),
                         ),
                       ),
                     ),
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Text(
                         result,
                         textAlign: TextAlign.right,
-                        style: TextStyle(color: Colors.white, fontSize: 30.sp),
+                        style: TextStyle(color: Colors.white, fontSize: 40.sp),
                       ),
                     ),
                   ],
